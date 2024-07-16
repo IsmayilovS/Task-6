@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.sectorTitle{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(66, 167, 191);
+    color: white;
+    margin-bottom: 20px;
+    padding: 6px 0;
+}
+.sectorTitle a{
+    color: white;
+}
+.sectorTitle .socialLinks{
+    display: flex;
+    gap: 10px;
+}
+.sectorTitle a{
+    color: white;
+}
+.sectorNavbar{
+    display: flex;
+    justify-content: space-around;
+}
+.navbarList{
+    display: flex;
+}
+.sectorNavbar ul{
+    display: flex;
+    gap: 50px;
+}
+.sectorNavbar a{
+   color: rgb(38, 45, 103);
+}
+.sectorNavbar ul{
+    margin-top:15px;
+}
+#specialContact{
+    margin: 10px 0 0 50px;
+    background-color: rgb(66, 167, 191);
+    border-radius: 8px;
+    color:white;
+}
